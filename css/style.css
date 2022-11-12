@@ -95,7 +95,7 @@ ul {
 }
 
 .section .container {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 70px;
 }
 .section-title {
@@ -313,8 +313,8 @@ ul {
 }
 
 .home .home-info {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 h3.hello {
@@ -342,16 +342,30 @@ h3.my-profession {
   margin-bottom: 30px;
   font-size: 16px;
   color: var(--text-black-700);
+  text-align: justify;
+  width: 80%;
+}
+
+.profile_container {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.profile_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
 }
 
 .home .home-img {
-  flex: 0 0 40%;
-  max-width: 40%;
-  /* background: red; */
-  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   position: relative;
+  padding: 0px;
 }
 .home-img::after {
+  display: none;
   content: "";
   position: absolute;
   height: 70px;
@@ -363,6 +377,7 @@ h3.my-profession {
 }
 
 .home-img::before {
+  display: none;
   content: "";
   position: absolute;
   height: 70px;
@@ -373,10 +388,8 @@ h3.my-profession {
   top: 115px;
 }
 .home .home-img img {
-  padding-top: 70px;
   height: 292px;
   border-radius: 5px;
-  margin: 20px;
 }
 
 /* About */
@@ -427,7 +440,7 @@ h3.my-profession {
   border-bottom: 1px solid var(--bg-black-50);
 }
 .about .about-content .personal-info .info-item p span {
-  font-weight: 400;
+  font-weight: 700;
   color: var(--text-black-700);
   margin-left: 4px;
   display: inline-block;

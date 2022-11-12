@@ -3,7 +3,7 @@ var typed = new Typed(".typing", {
   strings: [
     "Software Developer",
     "Full-Stack Web Developer",
-    "HR Manager and Database Manager",
+    "UI/UX Designer and Database Manager",
   ],
   typeSpeed: 100,
   BackSpeed: 50,
